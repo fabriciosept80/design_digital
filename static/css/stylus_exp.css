@@ -1,0 +1,109 @@
+*{
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu{
+        position: fixed;
+        width: 100%;
+        height: 70px;
+        background-color: #054964;
+        font-family: Arial;
+    }
+
+    .menu ul{
+        list-style: none;
+        position: relative;
+    }
+
+
+    .menu ul li{
+        width: 150px;
+        float: left;
+    }
+
+
+    .menu a{
+        padding: 15px;
+        display: block;/*verificar os itens juntos*/
+        text-decoration: none;
+        text-align: center;
+        background-color: #054964;
+        color: #cce3da;
+
+    }
+
+    .menu a:hover{
+        background-color: #0c1d7a;
+        font-weight: bold;
+    }
+
+    label[for="botao_menu"]{
+        padding: 5px;
+        background-color: #054964;
+        color: white;
+        font-family: Arial;
+        text-align: center;
+        font-size: 30px;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+    }
+    #botao_menu{
+        display: none;
+    }
+    label[for="botao_menu"]{
+        display: none;
+    }
+#tit_principal{
+    position: absolute;
+    top: 100px;
+    left: 80px;
+    font-family: Arial;
+    font-size: x-large;
+    font-weight: bold;
+    z-index: -1;
+}
+.table{
+    position: absolute;
+    top:140px;
+    margin-bottom: 10px;
+    left: 80px;
+    right: 10px;
+    font-family: Arial;
+    font-size: 15px;
+    border-collapse: collapse;
+    background: 0E2F4B4C;
+    text-align: center;
+    z-index: -1;
+
+}
+
+.table td{
+    border: 1px solid green;
+    width: 270px;
+
+}
+
+
+#line1{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#tab_exp td ul li{
+    text-align: left;
+    list-style: none;
+    text-justify:auto;
+
+}
+#tab_exp figure{
+    position: relative;
+    top: 5px;
+}
+#tab_exp figure figcaption{
+    font-size: small;
+    font-weight: bold;
+    position: relative;
+    bottom: -10px;
+}
