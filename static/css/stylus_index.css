@@ -1,179 +1,190 @@
-*{
-        margin: 0;
-        padding: 0;
+    *{
+    margin: 0;
+    padding: 0;
     }
 
     .menu{
-        position: fixed;
-        width: 100%;
-        height: 70px;
-        background-color: #054964;
-        font-family: Arial;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: #054964;
+    font-family: Arial;
     }
 
     .menu ul{
-        list-style: none;
-        position: relative;
+    list-style: none;
+    position: relative;
     }
 
 
     .menu ul li{
-        width: 150px;
-        float: left;
+    width: 150px;
+    float: left;
     }
 
 
     .menu a{
-        padding: 15px;
-        display: block;/*verificar os itens juntos*/
-        text-decoration: none;
-        text-align: center;
-        background-color: #054964;
-        color: #cce3da;
+    padding: 15px;
+    display: block;/*verificar os itens juntos*/
+    text-decoration: none;
+    text-align: center;
+    background-color: #054964;
+    color: #cce3da;
 
     }
 
     .menu a:hover{
-        background-color: #0c1d7a;
-        font-weight: bold;
+    background-color: #0c1d7a;
+    font-weight: bold;
     }
 
     label[for="botao_menu"]{
-        padding: 5px;
-        background-color: #054964;
-        color: white;
-        font-family: Arial;
-        text-align: center;
-        font-size: 30px;
-        cursor: pointer;
-        width: 50px;
-        height: 50px;
+    padding: 5px;
+    background-color: #054964;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
     }
     #botao_menu{
-        display: none;
+    display: none;
     }
     label[for="botao_menu"]{
-        display: none;
+    display: none;
+
     }
-    #foto1{
-        height: auto;
-        position:absolute;
-        top: 20%;
-        left: 2%;
-        width: 25%;
-        border: solid;
+    body{
+    height: 100%;
+    margin: 0;
     }
-    .assinatura {
-        position: absolute;
-        font-family: Allura;
-        font-size: xx-large;
-        font-style: italic;
-        font-weight: bold;
-        position: absolute;
-        top: 78%;
-        left: 7%;
+    .back{
+    background-image: url("/static/imagens/fundo2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    .conteudo{
+    padding: 20px;
+    color: whitesmoke;
+    font-family: Arial;
+    margin-left: 20px;
+    }
+    .conteudo .bloco1 #foto1{
+    margin-top: 230px;
+    display: flex;
+    height: 350px;
+
     }
 
-    .apresentação {
-        font-family: sans-serif;
-        font-size: large;
-        text-align: justify;
-        font-weight: bold;
-        /*border: solid;*/
-        position: absolute;
-        height: auto;
-        top: 30%;
-        left: 25%;
-        right: 4%;
-        padding: 5%;
+    .conteudo .bloco1 #assinatura{
+    margin-left: 28px;
+    font-family: Allura;
+    font-size: xx-large;
+    display: flex;
+    }
+
+    .conteudo .bloco1 #item{
+    margin-top: -220px;
+    margin-left: 340px;
+    margin-right: 15px;
+    font-size: 25px;
+    text-align: justify;
+    display: flex;
     }
 
 
     @media(max-width: 800px) {
 
-        label[for="botao_menu"]{
-            display: block;
-        }
-        #botao_menu:checked ~ .menu{
-            margin-left: 0px;
+    label[for="botao_menu"]{
+    display: block;
+    }
+    #botao_menu:checked ~ .menu{
+    margin-left: 0px;
 
-        }
+    }
 
+    .menu{
+    margin-top: 5px;
+    margin-left: -100%;
+    transition: all 0.4s;
+    }
+    .menu ul li {
+    width: 100%;
+    float: none;
+    }
 
-        .menu{
-            margin-top: 5px;
-            margin-left: -100%;
-            transition: all 0.4s;
-        }
-        .menu ul li {
-            width: 100%;
-            float: none;
-        }
+    .menu ul ul{
+    position: static;
+    overflow: hidden;
+    max-height: 0;
+    transition: all .6s;
+    }
+    #botao_menu{
+    transition: .4s;
 
-        .menu ul ul{
-            position: static;
-            overflow: hidden;
-            max-height: 0;
-            transition: all .6s;
-        }
-        #botao_menu{
-            transition: .4s;
+    }
 
-        }
+    #botao_menu:checked ~ .conteudo .bloco1 #foto1 {
+    margin-top: 210px;
+    margin-left: 150px;
+    height: 250px ;
+    transition: .5s;
+    }
+    #botao_menu:checked ~ .conteudo .bloco1 #assinatura {
+       margin-left: 165px;
+        font-family: Allura;
+    font-size: x-large;
+    display: flex;
+    }
 
-        #botao_menu:checked ~ .container #foto1 {
-            position: absolute;
-            top: 50%;
-            left: 25%;
-            transition: .5s;
-        }
-        #botao_menu:checked ~ .container .assinatura {
-            position: absolute;
-            left: 33%;
-            top: 91%;
-            font-size: x-large;
-            font-weight: bold;
-            font-style: italic;
-            transition: .5s;
-        }
+    #botao_menu:checked ~ .conteudo .bloco1 #item {
+    margin-top: 20px;
+    margin-left:10px;
+    margin-right: 70px;
+    font-size: 20px;
+    text-align: justify;
+    display: flex;
+    transition: .5s;
+    }
 
-         #botao_menu:checked ~ .apresentação {
-            left: 0;
-            top: 93%;
-            font-size: large;
-            text-align: justify;
+    #botao_menu:checked ~ #Titulo_1 {
+    position: absolute;
+    top : 50%
+    }
 
-            transition: .5s;
-        }
+    .conteudo{
+    padding: 20px;
+    color: whitesmoke;
+    font-family: Arial;
+    margin-left: 50px;
+    }
 
-        #botao_menu:checked ~ #Titulo_1 {
-            position: absolute;
-            top : 50%
-        }
+    .conteudo .bloco1 #foto1{
+    margin-top: 25px;
+    display: flex;
+    margin-left: 120px;
+    height: 350px;
 
-        #foto1{
-                position: absolute;
-                width: 50%;
-                height: auto;
-                left: 25%;
-                top: 20%;
-        }
-            .assinatura{
-                position:absolute;
-                left: 33%;
-                top: 63%;
-                font-size: x-large;
-                font-weight: bold;
-                font-style: italic;
-                transition: .5s;
-          }
-            .apresentação {
-                position: absolute;
-                left: 0;
-                top: 65%;
-                font-size: large;
-                transition: 0.4s;
+    }
 
+    .conteudo .bloco1 #assinatura{
+    margin-left: 150px;
+    font-family: Allura;
+    font-size: xx-large;
+    display: flex;
+    }
+
+    .conteudo .bloco1 #item{
+    margin-top: 50px;
+    margin-left:50px;
+    margin-right: 100px;
+    font-size: 25px;
+    text-align: justify;
+    display: flex;
     }
 
 
