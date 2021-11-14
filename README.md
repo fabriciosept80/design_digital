@@ -36,12 +36,12 @@ Link para vídeo demonstrativo -->> https://youtu.be/XpiQ8oFtPVA .
   
 |   Pastas  |       Conteúdo        |                            Descrição                                  |
 |:---------:|:--------------------: | :-------------------------------------------------------------------: |
-| doc       | Arquivos do Figma     | PDF contendo imagem do modelo da essoal                               |
-| src       | BackEnd               | Implementado um pouco de JavaScript                                   |
-| static    | CSS                   | Carousel,Cards,Novo Menu, Responsividade                              |
-| static    | Fonts                 | Fontes externas adicionadas a página                                  |   
-| static    | Imagens               | Adicionado novas imagens para ilustração do portfólio                 |
-| templates | Arquivos HTML         | Feito pagina contato.html.                                            |
+| doc       | Arquivos do Figma     | PDF contendo imagem do modelo da pessoal     :heavy_check_mark:                          |
+| src       | BackEnd               | Implementado um pouco de JavaScript      :heavy_check_mark:                             |
+| static    | CSS                   | Carousel,Cards,Novo Menu, Responsividade    :heavy_check_mark:                          |
+| static    | Fonts                 | Fontes externas adicionadas a página         :heavy_check_mark:                         |   
+| static    | Imagens               | Adicionado novas imagens para ilustração do portfólio   :heavy_check_mark:              |
+| templates | Arquivos HTML         | Feito pagina contato.html.         :heavy_check_mark:                                   |
 
 
 ##Conteúdo em vídeo
