@@ -29,7 +29,8 @@ Link para vídeo demonstrativo -->> https://youtu.be/XpiQ8oFtPVA .
 
 <div>Parte 2</div>
 
-<p></p>
+<p>Refeito o layout das paginas, aplicando novos conhecimentos, exemplo : Menu, carousel, cards.</p>
+<p>Feita algumas "responsividades" contuto ainda existem pendencias, as quais estou tentando resolver </p>
 
   <p> Abaixo quadro decrevendo o conteúdo das pastas do repostitório</p>
   
@@ -41,4 +42,11 @@ Link para vídeo demonstrativo -->> https://youtu.be/XpiQ8oFtPVA .
 | static    | Fonts                 | Fontes externas adicionadas a página                                  |   
 | static    | Imagens               | Adicionado novas imagens para ilustração do portfólio                 |
 | templates | Arquivos HTML         | Feito pagina contato.html.                                            |
+
+
+##Conteúdo em vídeo
+
+Link para vídeo demonstrativo -->>
+
+
 
