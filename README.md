@@ -9,7 +9,7 @@
   </div>
   <div>
   <h3> Estrutura de pastas </h3>
-  <h3>Parte 1</h3>
+  <h3>Entrega 1</h3>
   
   <p> Abaixo quadro decrevendo o conteúdo das pastas do repostitório</p>
   
@@ -28,7 +28,7 @@
 Link para vídeo demonstrativo -->> https://youtu.be/XpiQ8oFtPVA .
 ______________________________________________________________________________________________________________________________
 
-<h3>Parte 2</h3>
+<h3>Entrega 2</h3>
 
 <p>Refeito o layout das paginas, aplicando novos conhecimentos, exemplo : Menu, carousel, cards.</p>
 <p>Feita algumas "responsividades" contuto ainda existem pendencias, as quais estou tentando resolver </p>
