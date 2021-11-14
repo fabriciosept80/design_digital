@@ -15,12 +15,12 @@
   
 |   Pastas  |       Conteúdo        |                            Descrição                                  |
 |:---------:|:--------------------: | :-------------------------------------------------------------------: |
-| doc       | Arquivos do Figma     | PDF contendo imagem do modelo da essoal                               |
-| src       | BackEnd               | Futuros arquivos de Phyton e JavaScript para implementações da página |
-| static    | CSS                   | Arquivo CSS da página                                                 |
-| static    | Fonts                 | Fontes externas adicionadas a página                                  |   
-| static    | Imagens               | Imagens utilizadas                                                    |
-| templates | Arquivos HTML         | Código HTML utilizado na página                                       |
+| doc       | Arquivos do Figma     | PDF contendo imagem do modelo da pessoal :heavy_check_mark:                              |
+| src       | BackEnd               | Futuros arquivos de Phyton e JavaScript para implementações da página:heavy_check_mark: |
+| static    | CSS                   | Arquivo CSS da página  :heavy_check_mark:                                               |
+| static    | Fonts                 | Fontes externas adicionadas a página     :heavy_check_mark:                             |   
+| static    | Imagens               | Imagens utilizadas      :heavy_check_mark:                                              |
+| templates | Arquivos HTML         | Código HTML utilizado na página         :heavy_check_mark:                              |
 </div>
 
 ##Conteúdo em vídeo
