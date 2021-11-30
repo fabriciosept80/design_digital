@@ -50,4 +50,29 @@ ________________________________________________________________________________
 Link para vídeo demonstrativo -->> https://www.youtube.com/watch?v=sSvuJPvj7-g 
 
 
+<h3>Entrega Final</h3>
+
+<p> - Melhorado responsividade - </p>
+<p> - Adicionado BootStrap - </p>
+<p> - Implementado Flask - </p>
+<p> - Implementado Botão Download - </p>
+<p> - Implementado Contato com envio de email - </p>
+<p> - Implementado Jinja - Herança - </p>
+
+
+  <p> Abaixo quadro final, decrevendo o conteúdo das pastas do repostitório</p>
+  
+|   Pastas              |       Conteúdo        |                            Descrição                                                    |
+|:---------------------:|:--------------------: | :-------------------------------------------------------------------------------------: |
+| doc                   | Arquivos do Figma     | PDF contendo imagem do modelo da pessoal :heavy_check_mark:                             |
+| src                   | BackEnd               | Futuros arquivos de Phyton e JavaScript para implementações da página:heavy_check_mark: |
+| src/static            | CSS                   | Arquivo CSS da página  :heavy_check_mark:                                               |
+| src/static/fonts      | Fonts                 | Fontes externas adicionadas a página     :heavy_check_mark:                             |   
+| src/static/imagens    | Imagens               | Imagens utilizadas      :heavy_check_mark:                                              |
+| src/static/arquivo    | Curriculo             | Arquivo para download :heavy_check_mark:                                                |
+| src/templates         | Arquivos HTML         | Código HTML utilizado na página         :heavy_check_mark:                              |
+|   
+</div>
+
+
 
