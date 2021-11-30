@@ -1,0 +1,121 @@
+<<<<<<< HEAD:src/static/projeto.css
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+.brand-logo{
+    color: #c3cbe5;
+    text-decoration: none;
+    font-family: Ubuntu, sans-serif;
+    font-weight: bold;
+    display: block;
+    margin-left: 40px;
+}
+
+.card-group  .card{
+    border-radius: 5px;
+}
+
+.card-group {
+    padding: 60px;
+    margin-top: 0 ;
+    gap: 10px;
+}
+
+.card-group  .card .card-body{
+    background: #3f7a75;
+}
+
+.card-group  .card-body .card-title{
+    font-size: large;
+    font-weight: bold;
+}
+
+#explain{
+    padding: 3%;
+    text-align: center;
+    margin: 10px;
+    color: #d5741b;
+}
+
+
+}
+
+.nav-wrapper ul li a{
+    text-decoration: none;
+    color: #d5741b;
+
+}
+
+@media (max-width: 900px) {
+    #explain {
+        text-align: center;
+        margin:0 auto;
+
+    }
+    #explain p{
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+=======
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+.brand-logo{
+    color: #c3cbe5;
+    text-decoration: none;
+    font-family: Ubuntu, sans-serif;
+    font-weight: bold;
+    display: block;
+    margin-left: 40px;
+}
+
+.card-group  .card{
+    border-radius: 5px;
+}
+
+.card-group {
+    padding: 60px;
+    margin-top: 100px;
+    gap: 10px;
+}
+
+.card-group  .card .card-body{
+    background: #3f7a75;
+}
+
+.card-group  .card-body .card-title{
+    font-size: large;
+    font-weight: bold;
+}
+
+#explain{
+    padding: 10px;
+    margin-top: 3rem;
+    margin-left: 35rem;
+    color: #d5741b;
+}
+
+#explain p{
+    margin-left: -35rem;
+    text-align: center;
+}
+
+.nav-wrapper ul li a{
+    text-decoration: none;
+    color: #d5741b;
+
+}
+
+>>>>>>> 7b471500b773ae6efd28923dd22437348c9bd3b8:static/css/projeto.css

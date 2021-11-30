@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5690a509-3442-4b76-884a-098c24fe5bae" name="Changes" comment="Entrega final" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="2" />
+  </component>
+  <component name="ProjectId" id="21Pu69bTZ9IxJjAkhcNMlgT2rfV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DSM_FATEC\1_Semestre\design_digital\Portfolio" />
+      <recent name="D:\DSM_FATEC\1_Semestre\design_digital\Portfolio\src" />
+      <recent name="D:\DSM_FATEC\1_Semestre\design_digital\Portfolio\src\static" />
+      <recent name="D:\DSM_FATEC\1_Semestre\design_digital\Portfolio\templates" />
+      <recent name="D:\DSM_FATEC\1_Semestre\design_digital\Portfolio\static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.pwd">
+    <configuration name="contato.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/app.py/templates/contato.html?_ij_reload" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="experiencia.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/app.py/templates/experiencia.html?_ij_reload" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="formacao.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/app.py/templates/formacao.html?_ij_reload" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="home.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/app.py/templates/home.html?_ij_reload" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="pwd" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Portfolio" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pwd.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Portfolio" type="Python.FlaskServer">
+      <module name="Portfolio" />
+      <option name="target" value="$PROJECT_DIR$/src/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.pwd" />
+        <item itemvalue="JavaScript Debug.contato.html" />
+        <item itemvalue="JavaScript Debug.formacao.html" />
+        <item itemvalue="JavaScript Debug.experiencia.html" />
+        <item itemvalue="JavaScript Debug.home.html (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5690a509-3442-4b76-884a-098c24fe5bae" name="Changes" comment="" />
+      <created>1637854866313</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637854866313</updated>
+      <workItem from="1637854870140" duration="3505000" />
+      <workItem from="1637950708304" duration="6230000" />
+      <workItem from="1637967122653" duration="1665000" />
+      <workItem from="1637974209172" duration="22000" />
+      <workItem from="1638186131662" duration="37106000" />
+      <workItem from="1638280227983" duration="1058000" />
+      <workItem from="1638281975228" duration="1247000" />
+    </task>
+    <task id="LOCAL-00001" summary="Entrega final">
+      <created>1638282844749</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638282844749</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Entrega final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Entrega final" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/app_py$app.coverage" NAME="app Coverage Results" MODIFIED="1637956228508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Portfolio$app.coverage" NAME="app Coverage Results" MODIFIED="1637855847562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/app_py$pwd.coverage" NAME="pwd Coverage Results" MODIFIED="1638277582157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

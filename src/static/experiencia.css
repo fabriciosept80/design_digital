@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+        section{
+            padding: 10px;
+
+        }
+
+        .myexpe{
+            font-family: Roboto,sans-serif;
+            color: whitesmoke;
+        }
+
+        .myexpe .title {
+            margin-top: 80px;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            font-size: 30px;
+            font-weight: 400;
+            margin-bottom: 65px;
+            padding-bottom: 5px;
+            position: relative;
+            color: whitesmoke;
+            z-index: -1;
+        }
+
+        .myexpe .card .box .text{
+            color: #d5741b;
+            font-size: x-large;
+            font-weight: bold;
+            text-align: justify-all;
+
+        }
+
+
+        .myexpe .card .box p{
+            margin-top: 6px;
+        }
+
+        .myexpe .title::before{
+            content: " ";
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 300px;
+            height: 3px;
+            background: whitesmoke;
+            transform: translateX(-50%);
+
+    }
+
+        .myexpe .title::after{
+            content: "Profissional";
+            font-weight: bold;
+            position: absolute;
+            bottom: -32px;
+            left: 50%;
+            font-size: 20px;
+            background: none;
+            color: #d5741b;
+            padding: 5px;
+            transform: translateX(-50%);
+    }
+        .myexpe .carousel .card{
+
+            background: #1b3b4d;
+            border-radius: 5px;
+            padding: 2px 2px;
+            margin-top: 30px;
+            transition: all 0.3s ease;
+        }
+
+        .myexpe .carousel .card:hover{
+            background: #30305b;
+            cursor: pointer;
+        }
+
+        .myexpe .carousel .card img{
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+
+
+        }
+        .myexpe .carousel .card .box {
+            display:flex;
+            flex-direction: column;
+            padding: 10px;
+            align-items: flex-start;
+            justify-content: left;
+            z-index: -1;
+            transition: all 0.5s ease;
+        }
+        .myexpe .carousel .card:hover .box {
+            transform: scale(1.01);
+        }
+
+        .owl-dots{
+            text-align: center;
+            margin-bottom: 300px;
+        }
+        .owl-dot{
+            width: 14px;
+            height: 14px;
+            outline: none!important;
+            border-radius: 50%;
+            border: 2px solid whitesmoke!important;
+
+        }
+
+
+

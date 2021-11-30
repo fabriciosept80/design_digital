@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block title %}
+SOBRE
+{% endblock %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="../static/sobre.css">
+{% endblock %}
+
+{% block body %}
+<body class="back">
+{% endblock %}
+
+{% block content %}
+
+<section class="about" id="about">
+    <div class="max-width">
+        <h2 class="title">So<span>bre</span></h2>
+        <div class="about-content">
+            <div class="column left divfoto">
+                <img   src="../static/imagens/Foto_Perfil-sbg-.png">
+                <div class="text">Fabrício César Maciel Henriques</div>
+                <div class="text-1">Estudante de IT e Profissional de Logística</div>
+            </div>
+            <div class="column right">
+                <p>Fabrício, 41 anos, brasileiro, casado e pai. Estudante e amante de tecnologias, atualmente cursando a Fatec "Jassen Vidal" em São José dos Campos-SP, no promissor curso de DSM (Desenvolvimento de Software Multiplataforma). Venho por meio desta simples página, fazer um breve resumo da minha vida educacional e profissional.</p>
+                <a href="/src/static/arquivo/Log_Padrao_Fabricio.pdf" download="file"  >Download Curriculo</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+{% endblock %}

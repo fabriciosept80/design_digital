@@ -7,5 +7,8 @@
 # Editor-based HTTP Client requests
 /httpRequests/
 # ignore
-.idea/
+../.idea/
 /chave/
+/venv/
+/__pycache__/
+/__pycache__/
