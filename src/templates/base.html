@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/html">
+
+<head>
+{% block head %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../static/novanav.css">
+    <title>{% block title %}{% endblock %} Fabricio Profile</title>
+{% endblock %}
+{% block css %}
+
+{% endblock %}
+</head>
+{% block body %}
+<body style="background: #1b3b4d">
+{% endblock %}
+{% block nav %}
+<header id="header">
+    <a id="logo" href="http://www.linkedin.com/in/fabricio-logistica" title="Linkedin" >Fa<span>brício</span></a>
+    <nav id="nav">
+        <ion-icon id="btn-mobile"  name="menu-outline"></ion-icon>
+        <ul id="menu">
+            <li><a href="{{ url_for ('home') }}">Home</a></li>
+            <li><a href="{{ url_for ('sobre') }}">Sobre</a></li>
+            <li><a href="{{ url_for ('formacao') }}">Formação</a></li>
+            <li><a href="{{ url_for ('experiencia') }}">Experiencia</a></li>
+            <li><a href="{{ url_for ('projetos') }}">Portfólio</a></li>
+            <li><a href="{{ url_for ('interesses') }}">Interesses</a></li>
+            <li><a href="{{ url_for ('contato') }}">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+{% endblock %}
+
+{% block content %}
+
+{% endblock  %}
+
+{% block script %}
+<script>
+    const btnMobile = document.getElementById('btn-mobile');
+    function toggleMenu(){
+    const nav = document.getElementById('nav');
+    nav.classList.toggle('active');
+
+}
+btnMobile.addEventListener('click',toggleMenu);
+</script>
+
+{% endblock %}
+
+{% block rodape %}
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+{% endblock %}
+</body>
+</html>

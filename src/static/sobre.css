@@ -1,0 +1,216 @@
+  *  {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+
+
+    .back{
+    background: url("../static/imagens/fundo2.png") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+
+    section{
+        padding: 100px 0;
+    }
+    .about{
+        font-family: Arial,sans-serif;
+
+    }
+
+    .about .about-content{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        color: whitesmoke;
+    }
+
+    .about .title{
+        color: #d5741b;
+        font-family: Arial,sans-serif ;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 25px;
+        padding-bottom: 5px;
+        position: relative;
+        z-index: -1;
+
+    }
+
+    .about .title span{
+        color: whitesmoke;
+    }
+
+    .about .title::before{
+        content: " ";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 180px;
+        height: 3px;
+        background: whitesmoke;
+        transform: translateX(-50%);
+
+    }
+
+    .about .title::after{
+        content: "Who am I ?";
+        position: absolute;
+        bottom: -32px;
+        left: 50%;
+        font-size: 20px;
+        color: whitesmoke;
+        padding: 5px;
+        transform: translateX(-50%);
+    }
+    .about .about-content .left{
+        width: 45%;
+    }
+    .about .about-content .right{
+        width: 55%;
+    }
+
+    .about .about-content .right .text{
+        font-size: 25px;
+        font-weight: 500;
+        margin-bottom: 10px;
+        margin-left: 30px;
+    }
+
+    .about .about-content .right p{
+        text-align: justify;
+        font-size: 20px;
+        padding: 20px;
+        margin-right: 10%;
+        margin-left: -20px;
+        margin-top: 100px;
+
+    }
+
+    .about .about-content .right a{
+        margin-top: 10px;
+        display: inline-block;
+        background: #0c6388;
+        color: whitesmoke;
+        font-size: 20px;
+        padding: 10px 40px;
+        font-weight: bold;
+        margin-left: -10px;
+        border-radius: 7px;
+        border: 2px solid #0c1d7a;
+        transition: all 0.3s ease;
+    }
+
+    .about .about-content .right a:hover{
+        color: #d5741b;
+        background: none;
+        border: 2px solid whitesmoke;
+
+    }
+
+    .about .about-content .left .text {
+
+        font-family: "Roboto Black",sans-serif;
+        font-size: x-large;
+    }
+
+    .about .about-content .left .text-1 {
+        color: #d5741b;
+
+        font-weight: 400;
+        font-size: large;
+        text-align: center;
+    }
+
+
+    .about .about-content .left img{
+        width: 400px;
+        height: 400px;
+        margin-top: 80px;
+        margin-left: 40px;
+        object-fit: cover;
+        border-radius: 6px;
+
+    }
+    /*--responsivo--*/
+
+    @media (max-width: 900px){
+
+       /* .max-width {
+            max-width: 600px;
+            padding:0 80px;
+        }*/
+
+        .about .title{
+            margin-top: -25px;
+        }
+
+
+
+
+
+        .about .about-content .left{
+        width: 50%;
+
+        /*margin-right: 10rem;*/
+    }
+
+     .about .about-content  .left .text-1{
+        color: #d5741b;
+        margin-left: 20px ;
+        font-weight: bold;
+        margin-top: 5px;
+        font-size: 12px;
+
+    }
+     .about .about-content .left .text {
+
+        margin-top: 5px;
+        margin-left: 40px;
+
+        font-size: 12px;
+         text-align: ;
+
+    }
+       .about .about-content .column  img{
+        width: 300px;
+        height:300px;
+           margin-top: -30px;
+
+        margin-left: 10px;
+        margin-right: -30px;
+    }
+       .about .about-content .right p{
+            margin-top: -20px;
+            margin-right: 5%;
+            margin-left: 10%;
+
+       }
+      /* .about .about-content .left{
+           display: flex;
+       }*/
+
+
+
+        .about .about-content .right{
+            flex: 100%;
+            text-align: center;
+        }
+        .about .about-content{
+            height: calc(100vh - 70px)
+        }
+
+
+    }
+
+    .divfoto{
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
+

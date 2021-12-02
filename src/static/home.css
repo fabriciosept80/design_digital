@@ -1,0 +1,93 @@
+/*..Home..*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+
+.home{
+        display: flex ;
+        padding: 160px;
+
+        /*background: url("../imagens/fundo2.png") no-repeat center ;*/
+        height: 100vh;
+        color: whitesmoke;
+        min-height: 100px;
+        font-family: Ubuntu,sans-serif;
+    }
+
+   /*.back{
+    background: url("/static/imagens/fundo2.png") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;*/
+
+    }
+    .home .max-width{
+        margin: auto 0 auto 40px;
+
+    }
+    .home .home-content .text-1 {
+        font-size: 27px;
+
+    }
+     .home .home-content .text-2 {
+        font-size: 75px;
+        font-weight: 500;
+        color: #0bd503;
+    }
+    .home .home-content .text-3 {
+        font-size: 40px;
+        font-weight: 500;
+
+    }
+
+     .home .home-content .text-3 #dev{
+         color: #0bd503;
+         font-weight: bold;
+
+     }
+    .home .home-content .text-3 span #oleper{
+         color: whitesmoke;
+         font-weight: 500;
+     }
+
+     .home .home-content .text-4 {
+         color: yellow;
+         font-weight: 500;
+         margin-left: 110%;
+     }
+     @media (max-width: 947px) {
+         .home .home-content .text-2{
+             font-size: 70px;
+         }
+         .home .home-content .text-3{
+             font-size: 35px;
+         }
+         .home .home-content a{
+             font-size: 23px;
+             padding: 10px 30px;
+         }
+     }
+
+
+
+
+     @media (max-width: 690px){
+         .home .home-content .text-2{
+             font-size: 60px;
+         }
+         .home .home-content .text-3{
+             font-size: 32px;
+         }
+     }
+     @media (max-width: 500px){
+         .home .home-content .text-2{
+                 font-size: 50px;
+             }
+         .home .home-content .text-3{
+             font-size: 27px;
+         }
+     }

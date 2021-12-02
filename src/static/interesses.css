@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.interesses{
+    padding: 30px;
+    font-family: Roboto,sans-serif;
+    color: whitesmoke;
+
+}
+
+#titulo0{
+    padding: 20px;
+    margin-left: 30rem;
+    color: #d5741b;
+
+
+}
+
+#titulo1,#titulo2  {
+    margin-top: 30px;
+    text-align: justify;
+    font-weight: bold;
+    color: #d5741b;
+    font-size: large;
+}
+
+#assunto, #assunto1, #assunto3 {
+    margin-top: 10px;
+}
+
+#lista,#lista1,#lista2  {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #d5741b;
+}
+
+.rodape{
+    font-family: Allura;
+    margin-top: 60px;
+    margin-left: 25rem;
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+@media (max-width: 600px) {
+    #titulo0{
+        margin-left: 100px;
+    }
+    .rodape{
+        margin-left: 60px;
+        margin-top: 5px;
+        font-size: 30px;
+    }
+
+}
+
+
+
+
