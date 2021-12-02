@@ -63,5 +63,3 @@ def projetos():
 def sobre():
     return render_template('sobre.html')
 
-if __name__ == '__main__':
-   meu_app.run('0.0.0.0')

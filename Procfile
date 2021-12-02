@@ -1,1 +1,1 @@
-web: gunicorn src.app:meu_app --log-file -
+web: gunicorn wsgi:meu_app
