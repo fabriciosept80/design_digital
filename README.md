@@ -75,7 +75,7 @@ Link para vídeo demonstrativo -->> https://www.youtube.com/watch?v=sSvuJPvj7-g
 </div>
 
 # Link da aplicação no Heroku
-https://fabricio-profile.herokuapp.com/experiencia
+https://fabricio-profile.herokuapp.com/
 
 
 
