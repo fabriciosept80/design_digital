@@ -7,7 +7,7 @@ import src.pwd
 host = "smtp.gmail.com"
 port = "587"
 login = "develog80@gmail.com"
-senha = src.pwd.pwd()
+senha = ""
 
 
 meu_app = Flask(__name__)
