@@ -2,7 +2,7 @@ from flask import app, Flask, render_template, request
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-import src.pwd
+
 
 host = "smtp.gmail.com"
 port = "587"
